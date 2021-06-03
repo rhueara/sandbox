@@ -21,7 +21,7 @@ func _process(delta):
         timeout += delta
         return
     
-    TextNode.text = "Testing " + str(counter)
+    TextNode.text = " --- Testing " + str(counter)
     counter += 1
     timeout = 0
 
